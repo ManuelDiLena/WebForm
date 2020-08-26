@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulario Web</title>
+</head>
+<body>
+    <form id="form" name="form">
+        <div class="two-columns">
+            <div class="fields">
+                <label for="name">Nombre</label>
+                <input class="error" id="name" type="text" name="name" autocomplete="off">
+            </div>
+            <div class="fields">
+                <label for="lastname">Apellido</label>
+                <input class="error" id="lastname" type="text" name="lastname" autocomplete="off">
+            </div>
+        </div>
+        <div class="two-columns">
+            <div class="fields">
+                <label for="tel">Teléfono</label>
+                <input class="error" id="tel" type="text" name="tel" autocomplete="off">
+            </div>
+            <div class="fields">
+                <label for="email">Email</label>
+                <input class="error" id="email" type="email" name="email" autocomplete="off">
+            </div>
+        </div>
+        <div class="fields radiobutton">
+            <label for="man">Hombre</label>
+            <input type="radio" name="sex" id="man" value="Hombre">
+            <label for="woman">Mujer</label>
+            <input type="radio" name="sex" id="woman" value="Mujer">
+        </div>
+        <div class="fields">
+            <label for="coment">Comentarios</label>
+            <textarea id="coment"></textarea>
+        </div>
+        <div class="fields term">
+            <label for="term">Términos y Condiciones</label>
+            <input type="checkbox" name="term" id="term">
+        </div>
+        <div class="btn">
+            <input type="submit" name="send" id="btn" value="Enviar">
+        </div>
+    </form>
+
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
