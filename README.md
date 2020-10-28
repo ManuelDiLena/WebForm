@@ -2,4 +2,4 @@
 
 ### Simple registration web form with validation
 
-#### Visit it here: https://manueldilena.github.io/WebForm/
+#### Visit it [HERE](https://manueldilena.github.io/WebForm/)
